@@ -1,0 +1,5 @@
+-lib lies
+-lib thx.core
+-lib thx.promise;
+-cp src
+-main Main

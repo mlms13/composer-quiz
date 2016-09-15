@@ -1,0 +1,38 @@
+{
+  "dependencies": [
+    {
+      "name": "thx.core",
+      "type": "git",
+      "dir": "src",
+      "ref": "f1ce1d4",
+      "url": "git@github.com:fponticelli/thx.core"
+    }, {
+      "name": "hxnodejs",
+      "type": "git",
+      "ref": "d25c1536",
+      "url": "git@github.com:HaxeFoundation/hxnodejs"
+    }, {
+      "name": "thx.promise",
+      "type": "git",
+      "dir": "src",
+      "ref": "99a71d0",
+      "url": "git@github.com:fponticelli/thx.promise"
+    }, {
+      "name": "lies",
+      "type": "git",
+      "dir": "src",
+      "ref": "a2a53d5",
+      "url": "git@github.com:fponticelli/lies"
+    }, {
+      "name": "doom",
+      "type": "git",
+      "ref": "4a08104",
+      "url": "git@github.com:fponticelli/doom"
+    }, {
+      "name": "dots",
+      "type": "git",
+      "dir": "src",
+      "ref": "742ab22",
+      "url": "git@github.com:fponticelli/dots"
+    }]
+}

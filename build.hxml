@@ -1,5 +1,19 @@
--lib lies
 -lib thx.core
--lib thx.promise;
--cp src
+-lib thx.promise
+
+--each
+
+-lib doom
+-lib lies
+-cp client/src
 -main Main
+-js public/js/bundle.js
+
+--next
+
+-cp server
+-lib abe
+-lib express
+-lib hxnodejs
+-main Main
+-js bin/server.js

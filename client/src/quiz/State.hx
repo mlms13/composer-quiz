@@ -3,7 +3,12 @@ package quiz;
 import quiz.state.*;
 
 enum State {
-  LoadingData;
-  DataFailed(e: String);
+  Data(state: DataState);
   QuizMode(composers: Array<Composer>, question: Question);
+}
+
+enum DataState {
+  Needed;
+  Loading;
+  Failed(msg: String);
 }

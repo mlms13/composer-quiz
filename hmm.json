@@ -29,10 +29,15 @@
       "ref": "4a08104",
       "url": "git@github.com:fponticelli/doom"
     }, {
-      "name": "dots",
+      "name": "abe",
       "type": "git",
       "dir": "src",
-      "ref": "742ab22",
-      "url": "git@github.com:fponticelli/dots"
+      "ref": "54dc6fd",
+      "url": "git@github.com:abedev/abe"
+    }, {
+      "name": "express",
+      "type": "git",
+      "ref": "7106269",
+      "url": "git@github.com:abedev/hxexpress"
     }]
 }

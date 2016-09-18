@@ -3,8 +3,8 @@ package quiz;
 class Reducers {
   public static function quizApp(state: State, action: Action) {
     return switch action {
-      case FetchData: fetchData(state);
-      case CreateQuestion: createQuestion(state);
+      case StartLoadingData: fetchData(state);
+      case NextQuestion: createQuestion(state);
       case AnswerQuestion: answerQuestion(state);
     };
   }

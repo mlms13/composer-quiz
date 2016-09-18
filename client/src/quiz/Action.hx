@@ -3,7 +3,7 @@ package quiz;
 import quiz.state.Composer;
 
 enum Action {
-  FetchData;
-  CreateQuestion;
+  StartLoadingData;
+  NextQuestion;
   AnswerQuestion;
 }

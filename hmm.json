@@ -7,6 +7,18 @@
       "ref": "f1ce1d4",
       "url": "git@github.com:fponticelli/thx.core"
     }, {
+      "name": "thx.http",
+      "type": "git",
+      "dir": "src",
+      "ref": "270e703",
+      "url": "git@github.com:fponticelli/thx.http"
+    }, {
+      "name": "thx.stream",
+      "type": "git",
+      "dir": "src",
+      "ref": "22eb2df",
+      "url": "git@github.com:fponticelli/thx.stream"
+    }, {
       "name": "hxnodejs",
       "type": "git",
       "ref": "d25c1536",

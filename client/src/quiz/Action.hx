@@ -1,9 +1,12 @@
 package quiz;
 
-import quiz.state.Composer;
+import quiz.state.*;
+
 
 enum Action {
   StartLoadingData;
-  NextQuestion;
+  DisplayError(err: String);
+  GenerateNextQuestion(composers: Array<Composer>);
+  DisplayQuestion(composers: Array<Composer>, q: Question);
   AnswerQuestion;
 }

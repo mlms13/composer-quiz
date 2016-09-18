@@ -8,16 +8,20 @@ class App extends doom.html.Component<AppProperties> {
     // return
     return switch props.state {
       case Data(dataState): switch dataState {
-        case Needed: h1("data needed");
-        case Loading: h1("loading data");
+        case Needed: button(["click" => props.actions.triggerLoadData], "Get Started");
+        case Loading: button(["class" => "is-loading", "click" => props.actions.triggerLoadData], "Get Started");
         case Failed(msg): h1(msg);
       };
-      case QuizMode(_): h1("quizmode");
+      case Quiz(_): h1("quizmode");
     }
   }
 }
 
 typedef AppProperties = {
   state: quiz.State,
+  actions: AppActions
+};
 
-}
+typedef AppActions = {
+  triggerLoadData: Void -> Void
+};

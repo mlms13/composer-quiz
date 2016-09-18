@@ -1,10 +1,12 @@
 -lib thx.core
+-lib thx.http
 -lib thx.promise
 
 --each
 
 -lib doom
 -lib lies
+-lib thx.stream
 -cp client/src
 -main Main
 -js public/js/bundle.js

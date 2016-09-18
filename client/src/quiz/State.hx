@@ -1,10 +1,11 @@
 package quiz;
 
+// import thx.Nel;
 import quiz.state.*;
 
 enum State {
   Data(state: DataState);
-  QuizMode(composers: Array<Composer>, question: Question);
+  Quiz(composers: Array<Composer>, question: Question); // TODO: Nel, not Array
 }
 
 enum DataState {

@@ -2,7 +2,6 @@ package quiz;
 
 import quiz.state.*;
 
-
 enum Action {
   StartLoadingData;
   DisplayError(err: String);

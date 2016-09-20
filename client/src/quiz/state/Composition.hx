@@ -7,17 +7,17 @@ import thx.fp.Dynamics.*;
 typedef Composition = {
   name: String,
   published: PastYearCE,
-  movements: Array<Movement>,
-  sample: ImageSrc
+  preview: ImageSrc,
+  pdf: PdfSrc
 };
 
 class Compositions {
-  static function construct(name, published, movements, sample): Composition {
+  static function construct(name, published, preview, pdf): Composition {
     return {
       name: name,
       published: published,
-      movements: movements,
-      sample: sample
+      preview: preview,
+      pdf: pdf
     };
   }
 
@@ -26,8 +26,8 @@ class Compositions {
       construct,
       parseString(v.name),
       PastYearCE.parse(v.published),
-      successNel([]), // TODO
-      ImageSrc.parse(v.sample),
+      ImageSrc.parse(v.preview),
+      PdfSrc.parse(v.pdf),
       thx.Nel.semigroup()
     );
   }

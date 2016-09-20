@@ -29,10 +29,6 @@ class Reducers {
     return Reduced.fromState(state).withFuture(next);
   }
 
-  static function createQuestion(state): Reduced<State, Action> {
-    return Reduced.fromState(state); // TODO
-  }
-
   static function answerQuestion(state): Reduced<State, Action> {
     return Reduced.fromState(state);
   }

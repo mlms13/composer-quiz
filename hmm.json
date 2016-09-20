@@ -1,6 +1,39 @@
 {
   "dependencies": [
     {
+      "name": "abe",
+      "type": "git",
+      "dir": "src",
+      "ref": "54dc6fd",
+      "url": "git@github.com:abedev/abe"
+    }, {
+      "name": "doom",
+      "type": "git",
+      "ref": "4a08104",
+      "url": "git@github.com:fponticelli/doom"
+    }, {
+      "name": "dots",
+      "type": "git",
+      "dir": "src",
+      "ref": "9105201",
+      "url": "git@github.com:fponticelli/dots"
+    }, {
+      "name": "express",
+      "type": "git",
+      "ref": "7106269",
+      "url": "git@github.com:abedev/hxexpress"
+    }, {
+      "name": "hxnodejs",
+      "type": "git",
+      "ref": "d25c1536",
+      "url": "git@github.com:HaxeFoundation/hxnodejs"
+    }, {
+      "name": "lies",
+      "type": "git",
+      "dir": "src",
+      "ref": "a2a53d5",
+      "url": "git@github.com:fponticelli/lies"
+    }, {
       "name": "thx.core",
       "type": "git",
       "dir": "src",
@@ -10,19 +43,8 @@
       "name": "thx.http",
       "type": "git",
       "dir": "src",
-      "ref": "270e703",
+      "ref": "06aa302",
       "url": "git@github.com:fponticelli/thx.http"
-    }, {
-      "name": "thx.stream",
-      "type": "git",
-      "dir": "src",
-      "ref": "22eb2df",
-      "url": "git@github.com:fponticelli/thx.stream"
-    }, {
-      "name": "hxnodejs",
-      "type": "git",
-      "ref": "d25c1536",
-      "url": "git@github.com:HaxeFoundation/hxnodejs"
     }, {
       "name": "thx.promise",
       "type": "git",
@@ -30,26 +52,10 @@
       "ref": "99a71d0",
       "url": "git@github.com:fponticelli/thx.promise"
     }, {
-      "name": "lies",
+      "name": "thx.stream",
       "type": "git",
       "dir": "src",
-      "ref": "a2a53d5",
-      "url": "git@github.com:fponticelli/lies"
-    }, {
-      "name": "doom",
-      "type": "git",
-      "ref": "4a08104",
-      "url": "git@github.com:fponticelli/doom"
-    }, {
-      "name": "abe",
-      "type": "git",
-      "dir": "src",
-      "ref": "54dc6fd",
-      "url": "git@github.com:abedev/abe"
-    }, {
-      "name": "express",
-      "type": "git",
-      "ref": "7106269",
-      "url": "git@github.com:abedev/hxexpress"
+      "ref": "22eb2df",
+      "url": "git@github.com:fponticelli/thx.stream"
     }]
 }

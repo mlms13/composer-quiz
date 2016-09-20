@@ -29,7 +29,6 @@ class Composers {
   }
 
   public static function parse(v: Dynamic): VNel<String, Composer> {
-    trace("parsing composer");
     return val5(
       construct,
       parseString(v.firstName),

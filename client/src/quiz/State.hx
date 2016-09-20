@@ -11,5 +11,6 @@ enum State {
 enum DataState {
   Needed;
   Loading;
+  NotEnough;
   Failed(msg: String);
 }

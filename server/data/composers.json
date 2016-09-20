@@ -1,7 +1,55 @@
 [{
+  "firstName": "Guillaume",
+  "lastName": "Dufay",
+  "birth": "1397-08-13",
+  "death": "1474-11-27",
+  "works": []
+}, {
+  "firstName": "Josquin",
+  "lastName": "Desprez",
+  "birth": "1455-01-01",
+  "death": "1521-08-27",
+  "works": []
+}, {
+  "firstName": "Giovanni Pierluigi da",
+  "lastName": "Palestrina",
+  "birth": "1525-02-03",
+  "death": "1594-02-02",
+  "works": []
+}, {
+  "firstName": "Orlande de",
+  "lastName": "Lassus",
+  "birth": "1532-01-01",
+  "death": "1594-06-14",
+  "works": []
+}, {
+  "firstName": "William",
+  "lastName": "Byrd",
+  "birth": "1543-01-01",
+  "death": "1623-07-04",
+  "works": []
+}, {
+  "firstName": "Tomas Luis de",
+  "lastName": "Victoria",
+  "birth": "1548-01-01",
+  "death": "1611-08-20",
+  "works": []
+}, {
+  "firstName": "Claudio",
+  "lastName": "Monteverdi",
+  "birth": "1567-05-09",
+  "death": "1643-11-29",
+  "works": []
+}, {
   "firstName": "Johann Sebastian",
   "lastName": "Bach",
   "birth": "1685-03-21",
   "death": "1750-07-28",
+  "works": []
+}, {
+  "firstName": "George Frideric",
+  "lastName": "Handel",
+  "birth": "1685-02-23",
+  "death": "1759-04-14",
   "works": []
 }]

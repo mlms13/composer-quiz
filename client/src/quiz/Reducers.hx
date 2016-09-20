@@ -10,6 +10,7 @@ using thx.Options;
 import quiz.Action;
 import quiz.State;
 import quiz.state.*;
+import quiz.state.Question;
 import quiz.util.ApiClient;
 
 class Reducers {
@@ -37,12 +38,10 @@ class Reducers {
   }
 
   static function generateQuestion(composers: Array<Composer>) {
-    var composition = Options.ofValue(composers.map.fn(_.works).flatten().sampleOne());
+    var q = composers.map.fn(_.works).flatten().length > 0 && Math.random() < 0.5 ?
+      Questions.generateCompositionIdentification(composers) :
+      Questions.generateBornFirst(composers);
 
-    var next = switch composition {
-      case None: Quiz(composers, RankComposers(composers)); // TODO
-      case Some(comp): Quiz(composers, CompositionYear(comp));
-    };
-    return Reduced.fromState(next);
+    return Reduced.fromState(q.cata(Data(NotEnough), fn(Quiz(composers, _))));
   }
 }

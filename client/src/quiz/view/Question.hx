@@ -9,7 +9,7 @@ class Question extends doom.html.Component<QuestionProps> {
     return div(["class" => "q-question"], [
       h1(["class" => "q-question--title"], props.question.displayTitle()),
       div(["class" => "q-question--body"], [
-        return switch props.question {
+        switch props.question {
           case CompositionIdent(work): p(work.name);
           case BornFirst(list): div([
             ul(list.toArray().map.fn(li(_.firstName + " " + _.lastName)))

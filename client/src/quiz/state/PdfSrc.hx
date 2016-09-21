@@ -9,7 +9,7 @@ abstract PdfSrc(String) {
   function new(path: String) { this = path; }
 
   static function validate(path: String): VNel<String, PdfSrc> {
-    return path.startsWith("/pdf") && path.endsWith(".png") ?
+    return path.startsWith("/pdf") && path.endsWith(".pdf") ?
       successNel(new PdfSrc(path)) :
       failureNel('The string $path does not look like a pdf URL');
   }

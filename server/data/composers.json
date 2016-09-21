@@ -52,4 +52,34 @@
   "birth": "1685-02-23",
   "death": "1759-04-14",
   "works": []
+}, {
+  "firstName": "Giuseppe",
+  "lastName": "Verdi",
+  "birth": "1813-10-09",
+  "death": "1901-01-27",
+  "works": [{
+    "name": "Aida",
+    "published": 1871,
+    "preview": "/image/01.png",
+    "pdf": "/pdf/01.pdf"
+  }]
+}, {
+  "firstName": "George Frideric",
+  "lastName": "Handel",
+  "birth": "1685-02-23",
+  "death": "1759-04-14",
+  "works": [{
+    "name": "Fugue in G major",
+    "published": 1716,
+    "preview": "/image/02.png",
+    "pdf": "/pdf/02.pdf"
+  }]
+}, {
+  "firstName": "Gabriel",
+  "lastName": "Fauré",
+  "birth": "1845-05-12",
+  "death": "1924-11-04",
+  "works": [{
+
+  }]
 }]

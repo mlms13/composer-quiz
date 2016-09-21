@@ -12,6 +12,13 @@ enum Question {
 }
 
 class Questions {
+  public static function displayTitle(q: Question): String {
+    return switch q {
+      case BornFirst(_): "Who was born first?";
+      case CompositionIdent(_): "Identify the following piece:";
+    };
+  }
+
   static function similarByDate(all: Array<Composer>) {
     var rand = Math.floor(Math.random() * all.length),
         sorted = all.order.fn(thx.LocalDate.compare(_0.birth, _1.birth));
